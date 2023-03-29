@@ -15,7 +15,7 @@ const sayHi = () => {
   }
 
   txt.textContent = `Привет, ${name}!`;
-  he.textContent = `Ты точно ${name}?`;
+  he.textContent = `Ты точно ${name}? 🤔`;
   input.value = "";
   btnY.classList.remove("visually-hidden");
   btnN.classList.remove("visually-hidden");
