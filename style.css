@@ -1,0 +1,54 @@
+body {
+    background-color: #caf8bb;
+}
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+.cont {
+    padding: 300px 300px;
+}
+.quest {
+    color: #a00101;
+}
+input {
+    width: 400px;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid #999595;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+/* Стили для button */
+button {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+/* Наведение на button */
+button:hover {
+    background-color: #0062cc;
+}
+.btn-clr {
+    background-color: rgb(231, 228, 22);
+    color: blue;
+}
+
+.btn-clr:hover {
+    background-color: rgb(233, 195, 28);
+}
